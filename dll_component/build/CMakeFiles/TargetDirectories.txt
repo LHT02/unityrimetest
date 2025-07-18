@@ -1,0 +1,8 @@
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/UnityRimeDLL.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/test_dll.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/list_install_components.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/install.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/install/local.dir
+/home/ubuntu/unity_rime_integration/dll_component/build/CMakeFiles/install/strip.dir

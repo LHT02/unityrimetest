@@ -1,0 +1,24 @@
+# Unity Rime输入法集成 - Python组件依赖
+
+# PyRime - Rime的Python绑定
+# 注意：需要先安装librime-dev
+# Ubuntu: sudo apt-get install librime-dev librime1 pkg-config
+# ArchLinux: sudo pacman -S librime pkg-config
+# macOS: brew install librime pkg-config
+# Windows: 需要手动编译或使用预编译版本
+
+# 如果无法安装PyRime，代码中包含了模拟实现用于测试
+# pyrime>=0.0.9
+
+# 标准库依赖（Python内置，无需安装）
+# - socket
+# - json
+# - threading
+# - logging
+# - signal
+# - sys
+# - time
+# - typing
+# - dataclasses
+# - os
+

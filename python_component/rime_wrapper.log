@@ -1,0 +1,311 @@
+2025-07-18 13:01:52,045 - __main__ - INFO - 启动Rime包装器测试
+2025-07-18 13:01:52,045 - __main__ - ERROR - PyRime模块导入失败: No module named 'pyrime'
+2025-07-18 13:01:52,045 - __main__ - WARNING - 使用模拟PyRime模块进行测试
+2025-07-18 13:01:52,045 - __main__ - INFO - Rime引擎初始化成功，会话ID: 1
+2025-07-18 13:01:52,045 - __main__ - INFO - 开始测试输入...
+2025-07-18 13:01:52,045 - __main__ - INFO - 输入字符: n (键码: 110)
+2025-07-18 13:01:52,046 - __main__ - INFO - 处理结果: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "n",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:01:52,046 - __main__ - INFO - 输入字符: i (键码: 105)
+2025-07-18 13:01:52,046 - __main__ - INFO - 处理结果: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "ni",
+    "candidates": [
+      {
+        "text": "你",
+        "comment": "拼音: ni",
+        "index": 0
+      },
+      {
+        "text": "尼",
+        "comment": "拼音: ni",
+        "index": 1
+      },
+      {
+        "text": "泥",
+        "comment": "拼音: ni",
+        "index": 2
+      }
+    ],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:01:52,046 - __main__ - INFO - 输入字符: h (键码: 104)
+2025-07-18 13:01:52,046 - __main__ - INFO - 处理结果: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "nih",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:01:52,046 - __main__ - INFO - 输入字符: a (键码: 97)
+2025-07-18 13:01:52,046 - __main__ - INFO - 处理结果: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "niha",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:01:52,046 - __main__ - INFO - 输入字符: o (键码: 111)
+2025-07-18 13:01:52,046 - __main__ - INFO - 处理结果: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "nihao",
+    "candidates": [
+      {
+        "text": "你好",
+        "comment": "拼音: nihao",
+        "index": 0
+      }
+    ],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:01:52,046 - __main__ - INFO - 测试选择第一个候选词...
+2025-07-18 13:01:52,046 - __main__ - INFO - 选择结果: {
+  "success": true,
+  "selected_text": "你好",
+  "state": {
+    "composition": "",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:01:52,046 - __main__ - INFO - Rime会话已销毁
+2025-07-18 13:01:56,595 - __main__ - INFO - 初始化Rime包装器...
+2025-07-18 13:01:56,595 - rime_wrapper - ERROR - PyRime模块导入失败: No module named 'pyrime'
+2025-07-18 13:01:56,595 - rime_wrapper - WARNING - 使用模拟PyRime模块进行测试
+2025-07-18 13:01:56,595 - rime_wrapper - INFO - Rime引擎初始化成功，会话ID: 1
+2025-07-18 13:01:56,596 - __main__ - INFO - IPC服务器启动成功，监听 127.0.0.1:9999
+2025-07-18 13:01:56,596 - __main__ - INFO - 等待Unity客户端连接...
+2025-07-18 13:02:02,013 - __main__ - INFO - 启动IPC客户端测试
+2025-07-18 13:02:02,013 - __main__ - INFO - 已连接到服务器 127.0.0.1:9999
+2025-07-18 13:02:02,013 - __main__ - INFO - Unity客户端已连接: ('127.0.0.1', 59838)
+2025-07-18 13:02:02,013 - __main__ - INFO - 处理命令: ping
+2025-07-18 13:02:02,013 - __main__ - INFO - 心跳测试: {'success': True, 'message': 'pong'}
+2025-07-18 13:02:02,056 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:02:02,100 - __main__ - INFO - 输入键码 110: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "n",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:02:02,244 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:02:02,244 - __main__ - INFO - 输入键码 105: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "ni",
+    "candidates": [
+      {
+        "text": "你",
+        "comment": "拼音: ni",
+        "index": 0
+      },
+      {
+        "text": "尼",
+        "comment": "拼音: ni",
+        "index": 1
+      },
+      {
+        "text": "泥",
+        "comment": "拼音: ni",
+        "index": 2
+      }
+    ],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:02:02,388 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:02:02,388 - __main__ - INFO - 输入键码 104: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "nih",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:02:02,532 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:02:02,532 - __main__ - INFO - 输入键码 97: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "niha",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:02:02,676 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:02:02,676 - __main__ - INFO - 输入键码 111: {
+  "success": true,
+  "processed": true,
+  "state": {
+    "composition": "nihao",
+    "candidates": [
+      {
+        "text": "你好",
+        "comment": "拼音: nihao",
+        "index": 0
+      }
+    ],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:02:02,820 - __main__ - INFO - 处理命令: select_candidate
+2025-07-18 13:02:02,820 - __main__ - INFO - 选择候选词: {
+  "success": true,
+  "selected_text": "你好",
+  "state": {
+    "composition": "",
+    "candidates": [],
+    "page_size": 5,
+    "page_no": 0,
+    "is_last_page": true
+  }
+}
+2025-07-18 13:02:02,820 - __main__ - INFO - 已断开与服务器的连接
+2025-07-18 13:02:02,820 - __main__ - INFO - 客户端连接已关闭
+2025-07-18 13:02:02,821 - __main__ - INFO - 等待Unity客户端连接...
+2025-07-18 13:10:48,051 - __main__ - INFO - Unity客户端已连接: ('127.0.0.1', 42022)
+2025-07-18 13:10:48,051 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,096 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,184 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,272 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,360 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,448 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,536 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,624 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,712 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,800 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,888 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:48,976 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,064 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,156 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,244 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,332 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,420 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,508 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,596 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,684 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,772 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,860 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:49,948 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,036 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,124 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,212 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,300 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,392 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,480 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,568 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,656 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,744 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,832 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:50,920 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,008 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,096 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,184 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,272 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,360 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,448 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,536 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,628 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,716 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,804 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,892 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:51,980 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,068 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,156 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,244 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,332 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,420 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,508 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,596 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,684 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,772 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,860 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:52,948 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,036 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,124 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,212 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,300 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,388 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,476 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,564 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,652 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,740 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,828 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:53,916 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,004 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,092 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,180 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,272 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,360 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,448 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,536 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,624 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,712 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,800 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,888 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:54,976 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,064 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,152 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,240 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,328 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,416 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,504 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,592 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,680 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,768 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,856 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:55,944 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,032 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,120 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,208 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,296 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,384 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,472 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,560 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,648 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,736 - __main__ - INFO - 处理命令: process_key
+2025-07-18 13:10:56,780 - __main__ - INFO - 客户端连接已关闭
+2025-07-18 13:10:56,780 - __main__ - INFO - 等待Unity客户端连接...

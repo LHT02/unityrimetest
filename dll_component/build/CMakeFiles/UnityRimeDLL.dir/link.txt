@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,librime_dll.so.1 -o librime_dll.so.1.0.0 CMakeFiles/UnityRimeDLL.dir/rime_dll.cpp.o  -Wl,-rpath,::::::: 

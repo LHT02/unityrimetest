@@ -1,0 +1,12 @@
+2025-07-18 13:10:46,086 - __main__ - INFO - 初始化Rime包装器...
+2025-07-18 13:10:46,086 - rime_wrapper - ERROR - PyRime模块导入失败: No module named 'pyrime'
+2025-07-18 13:10:46,086 - rime_wrapper - WARNING - 使用模拟PyRime模块进行测试
+2025-07-18 13:10:46,086 - rime_wrapper - INFO - Rime引擎初始化成功，会话ID: 1
+2025-07-18 13:10:46,087 - __main__ - ERROR - 启动服务器失败: [Errno 98] Address already in use
+2025-07-18 13:10:46,087 - rime_wrapper - INFO - Rime会话已销毁
+2025-07-18 13:11:55,583 - __main__ - INFO - 初始化Rime包装器...
+2025-07-18 13:11:55,583 - rime_wrapper - ERROR - PyRime模块导入失败: No module named 'pyrime'
+2025-07-18 13:11:55,583 - rime_wrapper - WARNING - 使用模拟PyRime模块进行测试
+2025-07-18 13:11:55,583 - rime_wrapper - INFO - Rime引擎初始化成功，会话ID: 1
+2025-07-18 13:11:55,583 - __main__ - ERROR - 启动服务器失败: [Errno 98] Address already in use
+2025-07-18 13:11:55,583 - rime_wrapper - INFO - Rime会话已销毁
